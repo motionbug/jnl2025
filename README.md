@@ -1,8 +1,8 @@
-![Jamf Now Live 2025 Event Banner](https://media.jamf.com/images/events/JNL25-lp-5-1680x1050px.webp?q=80&w=800)
-
 # 🚀 Zero to Hero: A Practical Guide to Getting Started with Blueprints
 
-Hey folks,
+![Jamf Now Live 2025 Event Banner](https://media.jamf.com/images/events/JNL25-lp-5-1680x1050px.webp?q=80&w=800)
+
+👋 Hey folks,
 
 This README is your quick-reference from our Jamf Pro session on configuring services and blueprints for macOS. Below you’ll find the exact configurations and breakdowns we demoed, with clear explanations and a focus on security and usability. Use these as a base for your own Jamf blueprints or as a learning resource!
 
