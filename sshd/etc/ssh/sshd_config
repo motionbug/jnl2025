@@ -1,0 +1,3 @@
+KbdInteractiveAuthentication False
+PermitRootLogin False
+UnusedConnectionTimeout 900

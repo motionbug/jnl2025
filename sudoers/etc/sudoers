@@ -1,0 +1,25 @@
+# Allow all admin users to run most things
+%admin ALL=(ALL) ALL
+
+# Allow these exact jamf commands without a password
+Cmnd_Alias JAMF_NOPASS = /usr/local/bin/jamf flushDocks, \
+                         /usr/local/bin/jamf flushCaches, \
+                         /usr/local/bin/jamf recon, \
+                         /usr/local/bin/jamf policy, \
+                         /usr/local/bin/jamf reboot
+
+%admin ALL=(root) NOPASSWD: JAMF_NOPASS
+
+# Deny potentially destructive system binaries — even with a password
+Cmnd_Alias BLOCKED_SYSTEM_COMMANDS = /bin/rm, \
+                                     /usr/sbin/systemsetup
+
+%admin ALL=(ALL) NOPASSWD: !BLOCKED_SYSTEM_COMMANDS
+
+# Deny specific jamf commands — even if jamf itself is generally allowed
+Cmnd_Alias BLOCKED_JAMF = /usr/local/bin/jamf removeFramework, \
+						  /usr/local/bin/jamf removeframework, \
+                          /usr/local/bin/jamf flushPolicyHistory, \
+                          /usr/local/bin/jamf policy -event *
+
+%admin ALL=(root) NOPASSWD: !BLOCKED_JAMF
