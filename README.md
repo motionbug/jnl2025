@@ -75,6 +75,12 @@ Cmnd_Alias BLOCKED_JAMF = /usr/local/bin/jamf removeFramework, \
 | `%admin ALL=(root) NOPASSWD: !BLOCKED_JAMF` | Ensures these Jamf commands are always blocked, even for admins.                                               | Stops mistakes and protects device management.                      |
 
 ---
+## One Last Thing
+How we get the checksum of the zip file
+
+`shasum -a 256 *.zip`
+
+---
 
 ## 📝 Key Takeaways
 
