@@ -91,5 +91,14 @@ How we get the checksum of the zip file
 
 ---
 
+## 🔗 MUST Read Links 
+
+- [Der Flounder - Leveling Up – Managing admin rights in the enterprise](https://derflounder.wordpress.com/2025/07/17/slides-from-the-leveling-up-managing-admin-rights-in-the-enterprise-session-at-penn-state-mac-admins-2025/)
+- [Der Flounder - Deploying sudo configurations using Blueprints in Jamf Pro](https://derflounder.wordpress.com/2025/05/27/deploying-sudo-configurations-using-blueprints-in-jamf-pro/)
+- [Jamf Pro Blueprints Configuration Guide](https://learn.jamf.com/en-US/bundle/jamf-pro-blueprints-configuration-guide/page/Jamf_Pro_Blueprints_Configuration_Guide.html)
+- [Declarative Device Management Overview](https://learn.jamf.com/en-US/bundle/jamf-pro-documentation-current/page/Declarative_Device_Management.html)
+- [Playing with Jamf Blueprints](https://www.linkedin.com/pulse/playing-jamf-blueprints-karsten-fischer-uxqxe/)
+---
+
 If you want to dig deeper or need a hand with your own Jamf blueprints, just reach out!  
 Happy configuring! 🚀
